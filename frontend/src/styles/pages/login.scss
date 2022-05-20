@@ -1,0 +1,90 @@
+.logContainerAll {
+    display: flex;
+    margin: 100px;
+    gap: 7rem;
+
+    @media screen and(max-width: 840px) {
+        gap: 0rem;
+    }
+
+    img {
+        width: 500px;
+
+        @media screen and(max-width: 990px) {
+            width: 300px;
+        }
+
+        @media screen and(max-width: 840px) {
+            display: none;
+        }
+    }
+}
+
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid #ff7b77;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    box-shadow: #636363 11px 9px 8px 0px;
+
+    &:hover {
+        box-shadow: #4f4e4e 11px 9px 8px 0px;
+        cursor: pointer;
+
+    }
+
+
+
+
+
+}
+
+.loginContainer input,
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin: 20px;
+
+    @media screen and(max-width: 990px) {
+        width: 300px;
+    }
+
+    @media screen and(max-width: 590px) {
+        width: 200px;
+    }
+}
+
+.loginContainer button {
+    background-color: #ff7b77;
+    color: black;
+    font-size: 1.5rem;
+
+    &:hover {
+        cursor: pointer;
+        transition: 1s;
+        background: #ff3d37;
+        color: black;
+    }
+}
+
+.loginContainer input {
+    border: 3px solid #ff7b77;
+}
+
+
+.navbar .links {
+
+    @media screen and(max-width: 990px) {
+        width: 500px;
+    }
+
+    @media screen and(max-width: 590px) {
+        width: 250px;
+    }
+}

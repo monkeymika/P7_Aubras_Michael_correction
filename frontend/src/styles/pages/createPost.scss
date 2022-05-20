@@ -1,0 +1,33 @@
+.createPostPage {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formContainer {
+
+    background: white;
+
+    .inputCreatePost {
+
+        border: 2px solid #ff7b77;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 3px solid #ff7b77;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .btn {
+        height: 40px;
+        border: 3px solid #ff7b77;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+}
